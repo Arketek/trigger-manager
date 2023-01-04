@@ -10,10 +10,16 @@
     {
       "path": "mdapi-source",
       "package": "trigger-manager",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
       "default": false,
-      "versionDescription": "Arketek's official trigger manager framework."
+      "versionDescription": "Arketek's official trigger manager framework.",
+      "dependencies": [
+        {
+            "package": "test-factory",
+            "versionNumber": "1.0.0.LATEST"
+        }
+      ]
     }
   ],
   "name": "trigger-manager",
@@ -21,6 +27,7 @@
   "sfdcLoginUrl": "https://test.salesforce.com",
   "sourceApiVersion": "55.0",
   "packageAliases": {
-    "trigger-manager": "0Ho1U0000008Of9SAE"
+    "trigger-manager": "0Ho1U0000008Of9SAE",
+    "test-factory": "0Ho1U0000008Of4SAE"
   }
 }
