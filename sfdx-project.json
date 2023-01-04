@@ -1,0 +1,26 @@
+{
+  "packageDirectories": [
+    {
+      "path": "sfdx-source/ark_core",
+      "default": true
+    },
+    {
+      "path": "sfdx-source/unpackaged"
+    },
+    {
+      "path": "mdapi-source",
+      "package": "trigger-manager",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "Arketek's official trigger manager framework."
+    }
+  ],
+  "name": "trigger-manager",
+  "namespace": "ark_core",
+  "sfdcLoginUrl": "https://test.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "trigger-manager": "0Ho1U0000008Of9SAE"
+  }
+}

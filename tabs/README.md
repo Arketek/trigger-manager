@@ -1,1 +1,0 @@
-# sfdx-module-template
