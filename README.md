@@ -1,3 +1,4 @@
+Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007ofNIQAY
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
