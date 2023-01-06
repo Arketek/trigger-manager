@@ -1,6 +1,7 @@
 {
   "orgName": "Arketek",
   "edition": "Developer",
+  "namespace": "ark_core",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {

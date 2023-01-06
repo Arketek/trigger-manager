@@ -3,7 +3,8 @@ public class TriggerManager {
 	public class TriggerManagerException extends Exception {}
 
 	// Static method to dispatch trigger handler method calls based on trigger context
-    public static void dispatch(ITriggerHandler handler) {
+	@namespaceAccessible
+	public static void dispatch(ITriggerHandler handler) {
         // Check if the provided object is a valid trigger handler
         if (!TriggerManager_Helper.isValidTriggerHandler(handler)) {
             throw new TriggerManagerException(handler + ' does not implement ITriggerHandler.');

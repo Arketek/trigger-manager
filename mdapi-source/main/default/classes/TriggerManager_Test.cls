@@ -21,7 +21,7 @@ public class TriggerManager_Test {
     // Test method to verify that the dispatch method calls the correct trigger handler method based on trigger context
     @isTest 
     static void dispatch_CallsCorrectTriggerHandlerMethod_BasedOnTriggerContext_Test() {
-        Account testRecord = (Account) TestFactory.createSObject(new Account());
+        Account testRecord = new Account(name = 'Test Account');
 
         Test.startTest();
             // Insert trigger context
@@ -31,7 +31,7 @@ public class TriggerManager_Test {
 
     @isTest
     static void dispatch_CallsCorrectTriggerHandlerMethod_ForUpdateTrigger_Test() {
-        Account testRecord = (Account) TestFactory.createSObject(new Account());
+        Account testRecord = new Account(name = 'Test Account');
 
         Test.startTest();
             insert testRecord;
@@ -44,7 +44,7 @@ public class TriggerManager_Test {
 
     @isTest
     static void dispatch_CallsCorrectTriggerHandlerMethod_ForDeleteTrigger_Test() {
-        Account testRecord = (Account) TestFactory.createSObject(new Account());
+        Account testRecord = new Account(name = 'Test Account');
 
         Test.startTest();
             insert testRecord;
@@ -56,7 +56,7 @@ public class TriggerManager_Test {
 
     @isTest
     static void dispatch_CallsCorrectTriggerHandlerMethod_ForUndeleteTrigger_Test() {
-        Account testRecord = (Account) TestFactory.createSObject(new Account());
+        Account testRecord = new Account(name = 'Test Account');
 
         Test.startTest();
             insert testRecord;
